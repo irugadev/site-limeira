@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turistando Limeira - Comercio Local</title>
+    <meta name="description" content="Pagina com conteudo sobre a cidade de limeira">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="imagens/cabecalho-bandeira.png" alt="Cabeçalho da Pagina">
+    </header>
+    <main>
+        <section class="destaque">
+            <h1>Duvidas e Sugestoes</h1>
+            <h3>Entre em Contato</h3>
+        </section>
+
+        <section class="grid-contato">
+
+            <div>
+                <form action="" method="post" name="form1" id="form1">
+                    <div>
+                        <label for="">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+
+                    <div>
+                        <label for="">E-mail:</label>
+                        <input type="email" id="correio-eletronico" name="correio-eletronico" required>
+                    </div>
+
+                    <div>
+                        <label for="">Assunto:</label>
+                        <select name="assunto" id="assunto">
+                            <option>- - - - - - -</option>
+                            <option>Critica</option>
+                            <option>Duvida</option>
+                            <option>Sugestao</option>
+                            <option selected>Elogio</option> <!-- seleciona como primeira opçao a ser mostrada na lista por padrao -->
+                            <option>Informaçao</option>
+                            <option>Outro</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="">Comentario:</label>
+                        <textarea name="comentario" id="comentario" rows="6"></textarea>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="lgpd" id="lgpd" value="sim">
+                        Autorizo o uso dos dados de acordo com a <a href="#">politica de privacidade</a>.
+                    </div>
+
+                    <div>
+                        <input type="submit" name="enviar" id="enviar" value="Enviar Dados"> <!-- linha de comando para botao de açao para submeter dados-->
+                    </div>
+                </form>
+            </div>
+            
+        </section>
+
+        <section class="voltar">
+            <a href="index.html"><i class="bi bi-arrow-left-circle-fill"></i> Voltar</a>
+        </section>
+
+    </main>
+    <footer>
+       &copy; 2025 | Turistando Limeira | Créditos
+    </footer>
+
+</body>
+
+</html>
